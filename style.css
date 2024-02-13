@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  hsl(212, 45%, 89%);
+    
+}
+main{
+    width: 90%;
+    margin: 4em 2em;
+    padding: 1em;
+    background-color: white;
+    border-radius: 1.1em;
+    font-family: "Outfit" ;
+    text-align: center;
+    word-spacing: .1em;
+}
+img{
+    width: 100%;
+    border-radius: .5em;
+}
+h1{
+    margin: .85em .6em;
+    font-size: 1.4em;
+}
+p{
+    margin: 0em 1.3em 2em;
+    font-size: .9em;
+}
+@media screen and (min-width: 800px) {
+    main{
+        width: 320px;
+    }
+    
+}
