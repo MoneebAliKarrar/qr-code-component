@@ -33,6 +33,9 @@ p{
     font-size: .9em;
 }
 @media screen and (min-width: 800px) {
+    body{
+        height: 100vh;
+    }
     main{
         width: 320px;
     }
